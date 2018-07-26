@@ -9,7 +9,7 @@ import datetime
 
 AMBIENT_CHANNEL_ID = int(os.environ['AMBIENT_CHANNEL_ID'])
 AMBIENT_WRITE_KEY = os.environ['AMBIENT_WRITE_KEY']
-CHECK_SPAN = int(os.environ.get('CHECK_SPAN', '5'))
+CHECK_SPAN = int(os.environ.get('CHECK_SPAN', '1'))
 
 BLUETOOTH_DEVICEID = os.environ.get('BLUETOOTH_DEVICEID', 0)
 BLUETOOTH_DEVICE_ADDRESS = os.environ.get('BLUETOOTH_DEVICE_ADDRESS', None)
